@@ -1,0 +1,53 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{array}
+\usepackage{amsmath}
+\usepackage{hyperref}
+
+% Section styling
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{1.5ex}{1ex}
+
+\begin{document}
+
+\begin{center}
+    {\huge \textbf{John Gaeta}} \\
+    \textit{Visionary Designer | Architect of Virtual Cinema | Academy Award Winner}
+\end{center}
+
+\section{Introduction}
+John Gaeta is a world-renowned visual effects artist and creative executive, most recognized for his revolutionary work on \textbf{The Matrix trilogy}. By merging advanced cinematography with computational geometry, Gaeta effectively bridged the gap between traditional filmmaking and the digital frontier. His innovations have fundamentally altered how action and time are perceived in modern media.
+
+\section{Primary Contributions}
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Bullet Time:} Gaeta's most iconic invention involved a sophisticated array of cameras triggered in precise sequences. This allowed for the "slomo" effect where the camera moves at normal speed while the action is nearly frozen in time.
+    \item \textbf{Virtual Cinematography:} Beyond simple effects, Gaeta pioneered the use of photogrammetry to create digital human doubles. These "virtual actors" allowed directors to film scenes from angles that would be physically impossible in the real world.
+    \item \textbf{Universal Capture (U-Cap):} Developed for the Matrix sequels, this process used high-density facial scanning to record every nuance of an actor's performance, pushing past the "uncanny valley" and allowing for digital close-ups with emotional resonance.
+    \item \textbf{Spatial Storytelling:} As a co-founder of \textbf{Lucasfilm’s ILMxLAB} and an executive at \textbf{Magic Leap}, he transitioned his focus to "Living Stories"—immersive environments where the viewer is an active participant in a 3D narrative space.
+\end{itemize}
+
+\section{Technical Theory}
+Gaeta's work is grounded in the physics of light and the mathematical reconstruction of space. To achieve photorealism in a synthetic environment, the system must solve the \textbf{Rendering Equation} to determine how light interacts with the reconstructed surfaces:
+
+\[
+L_o(\mathbf{x}, \omega_o, \lambda, t) = L_e(\mathbf{x}, \omega_o, \lambda, t) + \int_{\Omega} f_r(\mathbf{x}, \omega_i, \omega_o, \lambda, t) L_i(\mathbf{x}, \omega_i, \lambda, t) (\omega_i \cdot \mathbf{n}) d\omega_i
+\]
+
+In this model, the virtual camera synthesizes the radiance ($L_o$) by integrating all incoming light ($L_i$) reflected off a point ($\mathbf{x}$), governed by the surface's specific Reflectance Distribution Function ($f_r$).
+
+\section{Professional Impact}
+
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|p{3cm}|p{4.5cm}|p{7.5cm}|}
+\hline
+\textbf{Era} & \textbf{Key Role} & \textbf{Legacy} \\ \hline
+1999--2003 & VFX Supervisor & Won Academy Award for Best Visual Effects (\textit{The Matrix}). \\ \hline
+2013--2017 & Creative Director & Founded ILMxLAB; pioneered Star Wars VR/AR experiences. \\ \hline
+2020--Present & CCO / Strategic Advisor & Advancing the "Metaverse" through AI and spatial computing. \\ \hline
+\end{tabular}
+
+\end{document}
