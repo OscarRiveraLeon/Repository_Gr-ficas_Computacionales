@@ -1,0 +1,9 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="80" cy="70" r="35" fill="yellow" stroke="orange" stroke-width="1" />
+    <path d="M 80 20 V 45 M 80 95 V 120 M 30 70 H 55 M 105 70 H 130" stroke="brown" />
+
+    <path d="M 0 200
+           Q 25 150 50 200 T 100 200 T 150 200 T 200 200 T 250 200 T 300 200 T 350 200 T 400 200
+           V 300 H 0 Z"
+          fill="lime" />
+</svg>
